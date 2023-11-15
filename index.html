@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS DAY 4 Practice</title>
+    <style>
+        #parent{
+            background-color: #ffe4c4;
+        }
+        p{
+            color: inherit;
+        }
+        a:link {
+            color: red;
+        }
+        a:visited {
+            color: green;
+        }
+        a:hover {
+            color: hotpink;
+            text-decoration: underline #0000ff !important;
+            font-size: 25px;
+        }
+        a:active {
+            color: #001b92;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="parent" style="color: #0000ff; font-family: fantasy; font-size: 25px;">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores!</p>
+        <!--Inherit- child inherits the properties of parent-->
+    </div>
+
+    <!--Pseudo class: link, hover, active, visited-->
+    <!--1. Hover-->
+    <a href="https://www.pastiebin.com/655386b1f25de">Roadmap Session Day 11 link  : Hover</a><br><br>
+
+    <!--2. Link-->
+    <a href="https://wwww.turing.com">Turing link  : link</a><br><br>
+
+    <!--3. Active-->
+    <a href="https://www.instagram.com/direct/inbox/">Instagram Direct link  : active</a><br><br>
+    
+    <!--4. Visited-->
+    <a href="https://www.codingninjas.com">Full Stack Development Codinninja  : Visited</a>
+</body>
+</html>
